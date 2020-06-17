@@ -1,0 +1,28 @@
+Step1: Run trainingModel.py with dataset
+Step2: Change the path of the files and directory
+Step3: run main.py
+
+How to use it
+Firstly, collect a dataset with monkey and human.
+Secondly, store the photo inside training_data_set
+For human,
+/training_data_set/humanSelfieDataSet
+For champanzee,
+/training_data_set/champanzeeDataset
+
+Run the trainingModel.py to collect a well trained AI.
+approximately half an hour is required for the AI to 
+train.
+
+After that, run the main.py.
+turn louder the music as if you like.
+click 'Human Vertification' to take a photo by webcam.
+A probability will be given to predict whether the object 
+inside the photo is a human or a champanzee
+if prob > 0.5, it is a human.
+else, it is a champanzee
+
+Finally, you can also click a raid button to automatically 
+download champanzee or human like photo.
+Enter a URL link and click the confirm button to enter your input.
+photos will be automatically download and being classified whether it is a human or not
